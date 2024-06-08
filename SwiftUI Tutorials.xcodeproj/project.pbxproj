@@ -46,6 +46,7 @@
 		D3B292812C1411A300E28DCC /* SwiftUI_TutorialsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUI_TutorialsUITests.swift; sourceTree = "<group>"; };
 		D3B292832C1411A300E28DCC /* SwiftUI_TutorialsUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUI_TutorialsUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		D3B292922C141FA400E28DCC /* MyAlternativeScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyAlternativeScene.swift; sourceTree = "<group>"; };
+		D3B292962C1422C400E28DCC /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,6 +77,7 @@
 		D3B2925A2C1411A100E28DCC = {
 			isa = PBXGroup;
 			children = (
+				D3B292962C1422C400E28DCC /* README.md */,
 				D3B292652C1411A100E28DCC /* SwiftUI Tutorials */,
 				D3B292762C1411A300E28DCC /* SwiftUI TutorialsTests */,
 				D3B292802C1411A300E28DCC /* SwiftUI TutorialsUITests */,
