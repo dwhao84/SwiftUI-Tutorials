@@ -6,11 +6,9 @@
 
 [SwiftUI Tutorials](https://developer.apple.com/tutorials/swiftui-concepts/exploring-the-structure-of-a-swiftui-app)
 
-* Apple: 
-
 [Develop in Swift](https://developer.apple.com/tutorials/develop-in-swift)
 
-* Youtube: 
+* Youtube
 
 [Learn how to develop iOS apps with Xcode, Swift and SwiftUI 📱 (FREE beginner tutorial)](https://www.youtube.com/watch?v=XJe83NXTmw0)
 
