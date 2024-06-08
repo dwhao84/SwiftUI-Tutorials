@@ -1,6 +1,6 @@
 #  SwiftUI Tutorials Notes
 
-這個學習內容，基本上從Apple.com，以及其他內容整理下來的。
+這個學習內容，基本上從 * [Apple.com](https://developer.apple.com) *，以及其他內容整理下來的。
 
 * Apple: 
 
