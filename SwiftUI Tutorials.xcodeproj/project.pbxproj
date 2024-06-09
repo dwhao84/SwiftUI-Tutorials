@@ -15,6 +15,8 @@
 		D3B292822C1411A300E28DCC /* SwiftUI_TutorialsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3B292812C1411A300E28DCC /* SwiftUI_TutorialsUITests.swift */; };
 		D3B292842C1411A300E28DCC /* SwiftUI_TutorialsUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3B292832C1411A300E28DCC /* SwiftUI_TutorialsUITestsLaunchTests.swift */; };
 		D3B292932C141FA400E28DCC /* MyAlternativeScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3B292922C141FA400E28DCC /* MyAlternativeScene.swift */; };
+		D3B2929A2C14A08300E28DCC /* ChatPrototype.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3B292992C14A08300E28DCC /* ChatPrototype.swift */; };
+		D3B2929D2C14A34F00E28DCC /* WeatherForecast.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3B2929C2C14A34F00E28DCC /* WeatherForecast.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +49,8 @@
 		D3B292832C1411A300E28DCC /* SwiftUI_TutorialsUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUI_TutorialsUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		D3B292922C141FA400E28DCC /* MyAlternativeScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyAlternativeScene.swift; sourceTree = "<group>"; };
 		D3B292962C1422C400E28DCC /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		D3B292992C14A08300E28DCC /* ChatPrototype.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatPrototype.swift; sourceTree = "<group>"; };
+		D3B2929C2C14A34F00E28DCC /* WeatherForecast.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherForecast.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,7 +105,9 @@
 				D3B292662C1411A100E28DCC /* SwiftUI_TutorialsApp.swift */,
 				D3B292922C141FA400E28DCC /* MyAlternativeScene.swift */,
 				D3B292682C1411A100E28DCC /* ContentView.swift */,
+				D3B2929B2C14A32C00E28DCC /* ChatPrototype */,
 				D3B2926A2C1411A200E28DCC /* Assets.xcassets */,
+				D3B2929C2C14A34F00E28DCC /* WeatherForecast.swift */,
 				D3B2926C2C1411A200E28DCC /* Preview Content */,
 			);
 			path = "SwiftUI Tutorials";
@@ -130,6 +136,14 @@
 				D3B292832C1411A300E28DCC /* SwiftUI_TutorialsUITestsLaunchTests.swift */,
 			);
 			path = "SwiftUI TutorialsUITests";
+			sourceTree = "<group>";
+		};
+		D3B2929B2C14A32C00E28DCC /* ChatPrototype */ = {
+			isa = PBXGroup;
+			children = (
+				D3B292992C14A08300E28DCC /* ChatPrototype.swift */,
+			);
+			path = ChatPrototype;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -262,6 +276,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D3B2929A2C14A08300E28DCC /* ChatPrototype.swift in Sources */,
+				D3B2929D2C14A34F00E28DCC /* WeatherForecast.swift in Sources */,
 				D3B292692C1411A100E28DCC /* ContentView.swift in Sources */,
 				D3B292932C141FA400E28DCC /* MyAlternativeScene.swift in Sources */,
 				D3B292672C1411A100E28DCC /* SwiftUI_TutorialsApp.swift in Sources */,
