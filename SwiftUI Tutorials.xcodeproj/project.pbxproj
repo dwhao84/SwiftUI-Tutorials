@@ -17,6 +17,7 @@
 		D3B292932C141FA400E28DCC /* MyAlternativeScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3B292922C141FA400E28DCC /* MyAlternativeScene.swift */; };
 		D3B2929A2C14A08300E28DCC /* ChatPrototype.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3B292992C14A08300E28DCC /* ChatPrototype.swift */; };
 		D3B2929D2C14A34F00E28DCC /* WeatherForecast.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3B2929C2C14A34F00E28DCC /* WeatherForecast.swift */; };
+		D3B293142C16110D00E28DCC /* WelcomePage.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3B293132C16110D00E28DCC /* WelcomePage.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,7 @@
 		D3B292962C1422C400E28DCC /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		D3B292992C14A08300E28DCC /* ChatPrototype.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatPrototype.swift; sourceTree = "<group>"; };
 		D3B2929C2C14A34F00E28DCC /* WeatherForecast.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherForecast.swift; sourceTree = "<group>"; };
+		D3B293132C16110D00E28DCC /* WelcomePage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomePage.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -107,7 +109,8 @@
 				D3B292682C1411A100E28DCC /* ContentView.swift */,
 				D3B2929B2C14A32C00E28DCC /* ChatPrototype */,
 				D3B2926A2C1411A200E28DCC /* Assets.xcassets */,
-				D3B2929C2C14A34F00E28DCC /* WeatherForecast.swift */,
+				D3B2929E2C160EEC00E28DCC /* 01_Customize views with properties */,
+				D3B293152C16136000E28DCC /* 02_Design an Interface */,
 				D3B2926C2C1411A200E28DCC /* Preview Content */,
 			);
 			path = "SwiftUI Tutorials";
@@ -144,6 +147,22 @@
 				D3B292992C14A08300E28DCC /* ChatPrototype.swift */,
 			);
 			path = ChatPrototype;
+			sourceTree = "<group>";
+		};
+		D3B2929E2C160EEC00E28DCC /* 01_Customize views with properties */ = {
+			isa = PBXGroup;
+			children = (
+				D3B2929C2C14A34F00E28DCC /* WeatherForecast.swift */,
+			);
+			path = "01_Customize views with properties";
+			sourceTree = "<group>";
+		};
+		D3B293152C16136000E28DCC /* 02_Design an Interface */ = {
+			isa = PBXGroup;
+			children = (
+				D3B293132C16110D00E28DCC /* WelcomePage.swift */,
+			);
+			path = "02_Design an Interface";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -279,6 +298,7 @@
 				D3B2929A2C14A08300E28DCC /* ChatPrototype.swift in Sources */,
 				D3B2929D2C14A34F00E28DCC /* WeatherForecast.swift in Sources */,
 				D3B292692C1411A100E28DCC /* ContentView.swift in Sources */,
+				D3B293142C16110D00E28DCC /* WelcomePage.swift in Sources */,
 				D3B292932C141FA400E28DCC /* MyAlternativeScene.swift in Sources */,
 				D3B292672C1411A100E28DCC /* SwiftUI_TutorialsApp.swift in Sources */,
 			);
