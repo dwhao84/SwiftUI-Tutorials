@@ -32,6 +32,7 @@ struct DayForecast: View {
     let high: Int
     let low: Int
     
+    // 確認是否為下雨，把有無下雨的結果，產生不同的string給systemName。
     var iconName: String {
         if isRainy {
             return "cloud.rain.fill"
@@ -40,6 +41,7 @@ struct DayForecast: View {
         }
     }
     
+    // 同樣確認是否為下雨，把有無下雨的結果，產生不同的Color給foregroundStyle。
     var iconStyle: Color {
         if isRainy {
             return Color.blue
