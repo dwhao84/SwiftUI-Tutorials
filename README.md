@@ -15,12 +15,13 @@
 ### Layout fundamentals
 
 <p align="center">
-<img src="https://github.com/dwhao84/HW48-App-store/blob/main/HW48-App%20store/Supporting%20FIles/Assets.xcassets/Demo%20Gif/HW48_AppStore_SegmentedControl_switched.dataset/HW48_AppStore_SegmentedControl_switched.gif" width="385" height="800"/>
+<img src="https://github.com/dwhao84/SwiftUI-Tutorials/blob/main/SwiftUI%20Tutorials/Assets.xcassets/README%20Use/stackView.imageset/CleanShot%202024-06-10%20at%2021.34.47%402x.png" width="800" height="385"/>
 </p>
 
 
 > Related Documentation:
-[Building layouts with stack views](https://developer.apple.com/documentation/swiftui/building-layouts-with-stack-views)
+> 
+> [Building layouts with stack views](https://developer.apple.com/documentation/swiftui/building-layouts-with-stack-views)
 
 #### ZStack
 A view that overlays its subviews, aligning them in both axes.
@@ -30,6 +31,7 @@ A view that overlays its subviews, aligning them in both axes.
 #### VStack
 A view that arranges its subviews in a vertical line.
 讓一個view，將其他的subviews呈現垂直的一條線。
+
 [VStack](https://developer.apple.com/documentation/swiftui/vstack)
 
 #### HStack
