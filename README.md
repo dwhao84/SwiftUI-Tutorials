@@ -12,6 +12,7 @@
 
 [Learn how to develop iOS apps with Xcode, Swift and SwiftUI 📱 (FREE beginner tutorial)](https://www.youtube.com/watch?v=XJe83NXTmw0)
 
+
 ### Layout fundamentals
 
 <p align="center">
@@ -23,20 +24,24 @@
 > 
 > [Building layouts with stack views](https://developer.apple.com/documentation/swiftui/building-layouts-with-stack-views)
 
+
 #### ZStack
 A view that overlays its subviews, aligning them in both axes.
+
 覆蓋subview的view，使它們在兩個軸上對齊。
 
 [ZStack](https://developer.apple.com/documentation/swiftui/zstack)
 
 #### VStack
 A view that arranges its subviews in a vertical line.
+
 讓一個view，將其他的subviews呈現垂直的一條線。
 
 [VStack](https://developer.apple.com/documentation/swiftui/vstack)
 
 #### HStack
 A view that arranges its subviews in a horizontal line.
+
 讓一個view，將其他的subviews呈現水平的一條線。
 
 [HStack](https://developer.apple.com/documentation/swiftui/hstack)
