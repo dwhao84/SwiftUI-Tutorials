@@ -56,7 +56,9 @@ A view that arranges its subviews in a horizontal line.
 @State private var numberOfPips: Int = 1
 ```
 Make numberOfPips a `@State` property. 
+
 Then tap the Roll button a few times to check that the image changes.
 
 To tell SwiftUI to monitor numberOfPips and update the UI when it changes, mark the property with the keyword `@State`.
+
 意思是，不管是常數或變數在SwiftUI裡面，只要加了 `@State`， SwiftUI就有辦法讓資料以及畫面自動更新。
