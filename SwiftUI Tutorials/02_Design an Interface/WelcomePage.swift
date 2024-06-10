@@ -7,6 +7,7 @@
 
 import SwiftUI
 
+
 struct WelcomePage: View {
     var body: some View {
         VStack {
@@ -24,15 +25,11 @@ struct WelcomePage: View {
                 .font(.title)
                 .fontWeight(.semibold)
                 .padding(.top)
-//                .border(.black, width: 1.5)
             
             Text("Description text")
                 .font(.title2)
         }
-        
-//        .border(.orange, width: 1.5)
         .padding()
-//        .border(.purple, width: 1.5)
     }
 }
 
