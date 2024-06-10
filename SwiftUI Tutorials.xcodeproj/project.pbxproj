@@ -18,6 +18,11 @@
 		D3B2929A2C14A08300E28DCC /* ChatPrototype.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3B292992C14A08300E28DCC /* ChatPrototype.swift */; };
 		D3B2929D2C14A34F00E28DCC /* WeatherForecast.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3B2929C2C14A34F00E28DCC /* WeatherForecast.swift */; };
 		D3B293142C16110D00E28DCC /* WelcomePage.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3B293132C16110D00E28DCC /* WelcomePage.swift */; };
+		D3B293172C169EB700E28DCC /* FeaturesPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3B293162C169EB700E28DCC /* FeaturesPage.swift */; };
+		D3B293192C16A24D00E28DCC /* FeatureCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3B293182C16A24D00E28DCC /* FeatureCard.swift */; };
+		D3B2931B2C16A3D400E28DCC /* SecContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3B2931A2C16A3D400E28DCC /* SecContentView.swift */; };
+		D3B2931D2C16DB0700E28DCC /* DiceView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3B2931C2C16DB0700E28DCC /* DiceView.swift */; };
+		D3B293202C16DD6900E28DCC /* DiceContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3B2931F2C16DD6900E28DCC /* DiceContentView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +58,11 @@
 		D3B292992C14A08300E28DCC /* ChatPrototype.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatPrototype.swift; sourceTree = "<group>"; };
 		D3B2929C2C14A34F00E28DCC /* WeatherForecast.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherForecast.swift; sourceTree = "<group>"; };
 		D3B293132C16110D00E28DCC /* WelcomePage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomePage.swift; sourceTree = "<group>"; };
+		D3B293162C169EB700E28DCC /* FeaturesPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeaturesPage.swift; sourceTree = "<group>"; };
+		D3B293182C16A24D00E28DCC /* FeatureCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeatureCard.swift; sourceTree = "<group>"; };
+		D3B2931A2C16A3D400E28DCC /* SecContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecContentView.swift; sourceTree = "<group>"; };
+		D3B2931C2C16DB0700E28DCC /* DiceView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiceView.swift; sourceTree = "<group>"; };
+		D3B2931F2C16DD6900E28DCC /* DiceContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiceContentView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -111,6 +121,7 @@
 				D3B2926A2C1411A200E28DCC /* Assets.xcassets */,
 				D3B2929E2C160EEC00E28DCC /* 01_Customize views with properties */,
 				D3B293152C16136000E28DCC /* 02_Design an Interface */,
+				D3B2931E2C16DC7500E28DCC /* 03_Use state to update a view */,
 				D3B2926C2C1411A200E28DCC /* Preview Content */,
 			);
 			path = "SwiftUI Tutorials";
@@ -161,8 +172,20 @@
 			isa = PBXGroup;
 			children = (
 				D3B293132C16110D00E28DCC /* WelcomePage.swift */,
+				D3B293162C169EB700E28DCC /* FeaturesPage.swift */,
+				D3B293182C16A24D00E28DCC /* FeatureCard.swift */,
+				D3B2931A2C16A3D400E28DCC /* SecContentView.swift */,
 			);
 			path = "02_Design an Interface";
+			sourceTree = "<group>";
+		};
+		D3B2931E2C16DC7500E28DCC /* 03_Use state to update a view */ = {
+			isa = PBXGroup;
+			children = (
+				D3B2931C2C16DB0700E28DCC /* DiceView.swift */,
+				D3B2931F2C16DD6900E28DCC /* DiceContentView.swift */,
+			);
+			path = "03_Use state to update a view";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -296,11 +319,16 @@
 			buildActionMask = 2147483647;
 			files = (
 				D3B2929A2C14A08300E28DCC /* ChatPrototype.swift in Sources */,
+				D3B293202C16DD6900E28DCC /* DiceContentView.swift in Sources */,
+				D3B2931D2C16DB0700E28DCC /* DiceView.swift in Sources */,
 				D3B2929D2C14A34F00E28DCC /* WeatherForecast.swift in Sources */,
+				D3B293192C16A24D00E28DCC /* FeatureCard.swift in Sources */,
 				D3B292692C1411A100E28DCC /* ContentView.swift in Sources */,
 				D3B293142C16110D00E28DCC /* WelcomePage.swift in Sources */,
 				D3B292932C141FA400E28DCC /* MyAlternativeScene.swift in Sources */,
 				D3B292672C1411A100E28DCC /* SwiftUI_TutorialsApp.swift in Sources */,
+				D3B293172C169EB700E28DCC /* FeaturesPage.swift in Sources */,
+				D3B2931B2C16A3D400E28DCC /* SecContentView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

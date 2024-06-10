@@ -13,13 +13,21 @@ struct DiceView: View {
     
     var body: some View {
         VStack {
-            Image(systemName: "die.face.\(numberOfPips)")
+            Image(systemName: "die.face.\(numberOfPips).fill")
                 .resizable()
                 .frame(width: /*@START_MENU_TOKEN@*/100/*@END_MENU_TOKEN@*/, height: 100)
+                .frame(maxWidth: 100, maxHeight: 100)
+                .aspectRatio(1, contentMode: .fit)
+                // Setup the foregroundStyle for primary color and secondary color.
+                .foregroundStyle(.black, .white)
             
+            // 用Button切換numberOfPips裡的不同數值
             Button("Roll") {
-                numberOfPips = Int.random(in: 1...6)
+                withAnimation {
+                    numberOfPips = Int.random(in: 1...6)
+                }
             }
+            .buttonStyle(.bordered)
         }
     }
 }
