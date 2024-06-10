@@ -1,6 +1,6 @@
 #  SwiftUI Tutorials Notes
 
-這個學習內容，基本上是從[Apple.com](https://developer.apple.com)，和其他地方把內容整理下來的。
+這是一個SwiftUI的學習筆記，基本上所有的內容是從[Apple.com](https://developer.apple.com)，和其他Youtube頻道上以及其他文章的內容，所將整理下來的。
 
 * Apple: 
 
@@ -26,6 +26,7 @@
 #### ZStack
 A view that overlays its subviews, aligning them in both axes.
 覆蓋subview的view，使它們在兩個軸上對齊。
+
 [ZStack](https://developer.apple.com/documentation/swiftui/zstack)
 
 #### VStack
@@ -37,6 +38,7 @@ A view that arranges its subviews in a vertical line.
 #### HStack
 A view that arranges its subviews in a horizontal line.
 讓一個view，將其他的subviews呈現水平的一條線。
+
 [HStack](https://developer.apple.com/documentation/swiftui/hstack)
 
 
